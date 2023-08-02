@@ -14,3 +14,6 @@ pub mod wasm;
 
 #[cfg(test)]
 mod tests;
+
+#[cfg(doctest)]
+mod tests;
